@@ -1,0 +1,29 @@
+{
+  "name": "aau_scraper_socket_cs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node client.js"
+  },
+  "author": "Maruf",
+  "license": "ISC",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "node-fetch": "2.6.2",
+    "roman-numerals": "^0.3.2",
+    "socket.io": "^4.2.0",
+    "socket.io-client": "^4.2.0"
+  },
+  "pkg": {
+    "options": [
+      "experimental-modules"
+    ]
+  },
+  "devDependencies": {
+    "caxa": "^2.1.0"
+  }
+}
